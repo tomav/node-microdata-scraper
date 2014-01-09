@@ -6,6 +6,9 @@ Scrape & parse a webpage to return a JSON with found microdata.
 Supports :
 * schema.org
 
+##Build status
+[![Build Status](https://travis-ci.org/tomav/node-microdata-scraper.png?branch=master)](https://travis-ci.org/tomav/node-microdata-scraper)
+
 ##Install
 
 ```npm install node-microdata-scraper```

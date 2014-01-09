@@ -1,6 +1,6 @@
 {
   "name": "node-microdata-scraper",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Scrape a webpage with given URL, parse and extract microdata (schema.org) and return a JSON.",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,9 @@
     "request": "~2.30.0",
     "MD5": "~1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.16.0"
+  },
   "scripts": {
     "test": "mocha test"
   },
