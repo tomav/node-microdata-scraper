@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "nodeunit tests\\test.js"
+    "test": "mocha tests"
   },
   "repository": {
     "type": "git",
