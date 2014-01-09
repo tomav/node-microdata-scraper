@@ -1,0 +1,37 @@
+{
+  "name": "node-microdata-scraper",
+  "version": "0.0.1",
+  "description": "Scrape a webpage with given URL, parse and extract microdata (schema.org) and return a JSON.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cheerio": "~0.13.0",
+    "request": "~2.30.0",
+    "MD5": "~1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodeunit tests\\test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tomav/node-microdata-scraper.git"
+  },
+  "keywords": [
+    "microdata",
+    "parser",
+    "schema",
+    "schema.org",
+    "html5",
+    "node",
+    "scrape",
+    "scraping",
+    "rich",
+    "snippet"
+  ],
+  "author": "Thomas VIAL",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
