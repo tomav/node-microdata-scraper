@@ -1,6 +1,6 @@
 {
   "name": "node-microdata-scraper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Scrape a webpage with given URL, parse and extract microdata (schema.org) and return a JSON.",
   "main": "index.js",
   "directories": {
