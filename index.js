@@ -54,6 +54,7 @@ function processTag(type, item) {
  */
 function parse(err, resp, html) {
   items = [];
+
   if (err) return console.error(err)
   var parsedHTML = $.load(html)
 
@@ -81,7 +82,7 @@ function parseUrl(url, callback) {
   var options = {
     uri: url,
     method: "GET",
-    followRedirect: false
+    followRedirect: true
   }
   request(options, function(err, res, body) {
     if (err) {
