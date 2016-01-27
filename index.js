@@ -39,6 +39,7 @@ function processTag(type, item) {
     break;
   case 'itemprop':
     // console.log(i+" PROP => "+md5($(item).parents("[itemtype]").html())+" => "+$(item).attr('itemprop')+" from "+$(item).parents("[itemtype]").attr("itemtype"));
+    if($(item).parents("[itemtype]").html() == null){ return; }
     property    = $(item).attr('itemprop');
     value       = getPropValue(item);
     item_index  = arraySearch(items, md5($(item).parents("[itemtype]").html()));
